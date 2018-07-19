@@ -1,0 +1,82 @@
+@import "@material/top-app-bar/mdc-top-app-bar";
+
+.anchortags {
+    background: rgb(243, 204, 95);
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.anchortags a:hover {
+    color: crimson;
+}
+
+.menuBarLinks {
+    color: orangered;
+    padding: 5px;
+}
+
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/art_warrior_armor_helmet_sword_wind_storm_95288_1366x768.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+.anchortags > li {
+    flex: 1;
+}
+
+li {
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: "Raleway", cursive;
+}
+
+.Headline {
+    display: flex;
+    flex-basis: content;
+}
+
+header {
+    font-family: "Shrikehand", cursive;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+    opacity: .7;
+}
+
+headerParagraph {
+    text-align: center;
+}
+
+p {
+    font-family: "Shrikehand", cursive;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.descriptions {
+    text-align: center;
+    font-size: 2vw;
+    background-color: beige;
+}
+
+#kingArthur {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 50%;
+    height: auto;
+}
